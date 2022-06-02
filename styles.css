@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+html {
+  box-sizing: border-box;
+ 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+
+body{
+  background-image: url('https://github.com/neuyann/Clipboard-landing-page/blob/main/images/bg-header-desktop.png?raw=true');
+  background-repeat: repeat-x;
+  font-size: 18px;
+  font-family: Bai Jamjuree;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logoC {
+  width: 130px;
+  margin: 130px auto 50px auto;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+
+
+button {
+  border: none;
+  color: white;
+  padding: 16px 33px;
+  font-size: 18px;
+  border-radius: 28px;
+  font-family: Bai Jamjuree;
+  margin-top: 40px;
+  display: inline;
+  cursor: pointer;
+}
+
+#iOS {
+  background-color:  var(--strong-cyan);
+  box-shadow: 0px 2px 5px var(--strong-cyan);
+  margin-right: 5px;
+}
+
+#macOS {
+  background-color: var(--light-blue);
+  box-shadow: 0px 2px 5px var(--light-blue);
+  margin-left: 5px;
+}
+
+header h2 {
+  margin-top: 160px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 22px;
+  color: gray;
+}
+
+header p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.centralUp {
+  margin-top: 80px;
+}
+#computerImg {
+  display: float;
+  float: left;
+  margin-left: -50px;
+  margin-right: 120px;
+}
+
+.rightInfos {
+  padding-top: 80px;
+  padding-right: 260px;
+}
+
+.rightInfos h3{
+  margin-bottom: 15px;
+}
+
+.rightInfos p{
+  margin-bottom: 60px;
+  font-size: 15px;
+}
+
+
+.centralDown {
+  text-align: center;
+  margin-top: 220px;
+}
+
+.centralDown h2 {
+  margin-bottom: 20px;
+}
+
+.centralDown p {
+  font-size: 17px;
+  margin: 0 380px 110px 380px;
+}
+
+.blocks img {
+   width: 40px;
+  margin-bottom: 45px;
+}
+
+.blocks {
+  display: flex;
+  text-align: center;
+  margin: 0 150px 150px 170px;
+}
+
+.blocks h3{
+  margin-bottom: 30px;
+}
+
+.blocks p {
+  font-size: 15px;
+  
+}
+
+.create, .Plain, .Sneak {
+  width: 345px;
+  height: 220px;
+}
+
+.create, .Plain{
+   margin-right: 20px;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 160px 160px 160px;
+}
+
+.brands img {
+  width: 130px;
+}
+
+.clipboard {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.clipboard p {
+  font-size: 15px;
+  margin: 30px 420px 10px 420px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f6f8;
+  height: 150px;
+  color: gray;
+}
+footer p{
+  font-size: 17px;
+}
+.logoc img {
+  width: 50px;
+  
+}
+
+.faq {
+  width: 95px;
+}
+
+.privacy {
+  width: 120px;
+}
+
+
+
+.faq p:first-of-type {
+  margin-bottom: 18px;
+}
+.privacy p:first-of-type {
+ margin-bottom: 18px;
+}
+
+footer img{
+  margin-right: 20px;
+}
+/* active state*/
+
+#contactus:hover {
+  color: var(--strong-cyan);
+  cursor: pointer;
+}
+
+#iOS:hover {
+  background-color: #5dccbb;
+}
+
+#macOS:hover {
+  background-color: #8896ff;
+}
+
