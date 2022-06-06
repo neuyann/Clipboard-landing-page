@@ -208,6 +208,7 @@ footer p{
 footer img{
   margin-right: 20px;
 }
+
 /* active state*/
 
 #contactus:hover {
@@ -351,12 +352,6 @@ footer img{
   footer img {
     margin-top: 50px;
     margin-right: 0;
-  
-  }
-  
-  .socialmedia {
-    display: flex;
-    justify-content: space-between;
   }
   
   
