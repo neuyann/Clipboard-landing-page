@@ -54,13 +54,13 @@ button {
   cursor: pointer;
 }
 
-#iOS {
+.iOS {
   background-color:  var(--strong-cyan);
   box-shadow: 0px 2px 5px var(--strong-cyan);
   margin-right: 5px;
 }
 
-#macOS {
+.macOS {
   background-color: var(--light-blue);
   box-shadow: 0px 2px 5px var(--light-blue);
   margin-left: 5px;
