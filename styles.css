@@ -131,7 +131,8 @@ h2 {
 .blocks {
   display: flex;
   text-align: center;
-  margin: 0 150px 150px 170px;
+  justify-content: center;
+  margin: 0 150px 170px 150px;
 }
 
 .blocks h3{
@@ -222,3 +223,141 @@ footer img{
   background-color: #8896ff;
 }
 
+
+/* mobile version */
+
+@media (max-width: 500px) {
+  main {
+      margin-left: 40px;
+      margin-right: 40px
+  }
+   
+  #logoC {
+  width: 130px;
+  margin: 130px auto 50px auto;
+}
+  
+  header h1 {
+    text-align: center;
+    font-size: 40px;
+    
+  }   
+  header p {
+    font-size: 20px;
+  }
+  button {
+    display: block;
+    width: 100%;
+  }
+  
+  #iOS {
+    margin-right: 0;
+  }
+  
+  #macOS {
+    margin-left: 0;
+  }
+  header h2 {
+  margin-top: 160px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  .centralUp {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+  }
+  
+  #computerImg {
+  width: 100%;
+   display: flex;
+    margin-left: 0;
+  margin-right: 0;
+    margin-bottom: 40px;
+  }
+    .rightInfos {
+   text-align: center;
+  padding-top: 0;
+      padding-right: 0;}
+  
+  .rightInfos h3{
+    font-size: 28px;
+  }
+  
+  .rightInfos p {
+    font-size: 20px;
+  }
+  .centralDown h2{
+    font-size: 40px;
+  }
+  .centralDown p{
+    margin: 0 0 60px 0;
+    font-size: 20px;
+     }
+  .centralDown img {
+    width: 100%;
+  }
+  .blocks {
+  flex-direction: column;
+    margin: 0 0 150px 0;
+  }
+  .blocks img {
+   
+    width: 55px;
+  }
+  .create, .Plain{
+    margin-right: 0px;
+  margin-bottom: 25px}
+  
+  .create, .Plain, .Sneak{
+     margin-top: 40px;
+    width: auto;
+  }
+  
+  .blocks p{
+    font-size: 20px;
+  }
+  
+  .blocks h3{
+    font-size: 28px;
+  }
+  
+  .brands {
+    flex-direction: column;
+    align-items: center;
+      margin: 0 auto 100px auto;
+
+  }
+  .brands img {
+    margin-bottom: 70px;
+  }
+  
+  .clipboard p{
+    margin: 30px auto 10px auto;}
+  
+  footer {
+    flex-direction: column;
+    align-items: center;
+    margin: 170px 0 0 0;
+    height: 500px;
+  }
+  
+  .faq, .privacy, .install {
+    text-align: center;
+    width: auto;
+  }
+  
+  footer img {
+    margin-top: 50px;
+    margin-right: 0;
+  
+  }
+  
+  .socialmedia {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+}
